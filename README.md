@@ -12,14 +12,11 @@ I graduated with a bachelor's degree majoring in informatics engineering with a 
 ## Project be done
 The projects that I have worked on can be seen in my repository and all are private because they are related to the company I used to work for. However, you can see the appearance of some of these projects as follows:
 <br>
-### * Thesis Project
-<picture>
-  <img alt="Thesis Project DSS Home Page." src="https://drive.google.com/uc?export=view&id=1WNVyqOaW15gZong9sf80zCvtQNebBO0A" style="width: 100px; height: auto">
-</picture>
-<picture>
-  <img alt="Thesis Project DSS Result." src="https://drive.google.com/uc?export=view&id=1WOwuDD-hUNnqCKW-KMF-wVKEB9QrpRLU" style="width: 100px; height: auto">
-</picture>
-<br>
+### "*" Thesis Project
+<p align="center">
+  <img alt="Thesis Project DSS Home Page." src="https://drive.google.com/uc?export=view&id=1WNVyqOaW15gZong9sf80zCvtQNebBO0A" style="width: 500px; height: auto">
+  <img alt="Thesis Project DSS Result." src="https://drive.google.com/uc?export=view&id=1WOwuDD-hUNnqCKW-KMF-wVKEB9QrpRLU" style="width: 500px; height: 310px">
+</p>
 In my thesis project, I created a decision support system using the Web-based Simple Multi-Attribute Rating Technique (SMART) method and using the Laravel platform.
 
 <!--
