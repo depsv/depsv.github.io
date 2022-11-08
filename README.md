@@ -49,6 +49,26 @@ SIMASIP is an application that helps in managing student thesis from beginning t
 Cashier System, Apotek Salwa is a cashier management application for product and transaction management. The addition of features that I did was to add recipe transactions, reports for recipe transactions, invoice lists and printable product lists.
 
 ## Keep in Touch 👉👈
+<p>
+  <span>
+    <img alt="Gmail" src="/gmail-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
+    debbyprasetyadi@gmail.com
+  </span>
+</p>
+<p>
+  <span>
+    <img alt="LinkedIn" src="/linkedin-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
+    Debby Prasetyady
+  </span>
+</p>
+<!--
+<p>
+  <span>
+    <img alt="Whatsapp" src="/whatsapp-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
+    +6283840995412
+  </span>
+</p>
+-->
 
 <!--
 **depsv/depsv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
