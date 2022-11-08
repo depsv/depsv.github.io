@@ -9,6 +9,12 @@ I'm Debby Prasetyady, I am very interested in programming, and I am currently st
 
 I graduated with a bachelor's degree majoring in informatics engineering with a GPA of 3.01 out of 4 at Siliwangi University and had a project management certificate (ICT Management) from 2018 to 2021 through the Professional Certification Institute at my campus in collaboration with the National Professional Certification Agency (BNSP).
 
+Languages I speak:
+| Rank | Languages | Fluency  |
+|-----:|-----------|----------|
+|     1| Indonesia | Native   |
+|     2| English   | Basic    |
+
 ## Project be done
 The projects that I have worked on can be seen in my repository and all are private because they are related to the company I used to work for. However, you can see the appearance of some of these projects as follows:
 <br>
@@ -41,6 +47,9 @@ SIMASIP is an application that helps in managing student thesis from beginning t
   <img alt="Invoice List Printable." src="https://drive.google.com/uc?export=view&id=13o4cEF3-82eZ5zI4iqoLfM-LK74g-mLE" style="width: 250px; height: auto">
 </p>
 Cashier System, Apotek Salwa is a cashier management application for product and transaction management. The addition of features that I did was to add recipe transactions, reports for recipe transactions, invoice lists and printable product lists.
+
+## Keep in Touch 👉👈
+
 <!--
 **depsv/depsv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
