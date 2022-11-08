@@ -33,12 +33,12 @@ SIMASIP is an application that helps in managing student thesis from beginning t
 
 * **Cashier System, Salwa Pharmacy**
 <p align="center">
-  <img alt="Form Login." src="https://drive.google.com/uc?export=view&id=13b-iPfq8Box2gPpqTg94rUMA_NyDGxvE" style="width: 200px; height: auto">
-  <img alt="Receipt Transaction." src="https://drive.google.com/uc?export=view&id=13e_d4kyXMiPG7PZd6uhRhkP-JvnPM5Fh" style="width: 200px; height: auto">
-  <img alt="Report Transaction Receipt." src="https://drive.google.com/uc?export=view&id=13n-0k3d391s2OqWl_el66OjtoGPLj6QT" style="width: 200px; height: auto">
-  <img alt="Report Stock." src="https://drive.google.com/uc?export=view&id=13oCPvDa4rKDshoAlAb19nYfBOtmN8Xlx" style="width: 200px; height: auto">
-  <img alt="Report Stock Printable." src="https://drive.google.com/uc?export=view&id=13syWd3CtB_3J8irKUUV3hjgSkY9gXIIX" style="width: 200px; height: auto">
-  <img alt="Invoice List Printable." src="https://drive.google.com/uc?export=view&id=13o4cEF3-82eZ5zI4iqoLfM-LK74g-mLE" style="width: 200px; height: auto">
+  <img alt="Form Login." src="https://drive.google.com/uc?export=view&id=13b-iPfq8Box2gPpqTg94rUMA_NyDGxvE" style="width: 300px; height: auto">
+  <img alt="Receipt Transaction." src="https://drive.google.com/uc?export=view&id=13e_d4kyXMiPG7PZd6uhRhkP-JvnPM5Fh" style="width: 300px; height: auto">
+  <img alt="Report Transaction Receipt." src="https://drive.google.com/uc?export=view&id=13n-0k3d391s2OqWl_el66OjtoGPLj6QT" style="width: 300px; height: auto">
+  <img alt="Report Stock." src="https://drive.google.com/uc?export=view&id=13oCPvDa4rKDshoAlAb19nYfBOtmN8Xlx" style="width: 300px; height: auto">
+  <img alt="Report Stock Printable." src="https://drive.google.com/uc?export=view&id=13syWd3CtB_3J8irKUUV3hjgSkY9gXIIX" style="width: 300px; height: auto">
+  <img alt="Invoice List Printable." src="https://drive.google.com/uc?export=view&id=13o4cEF3-82eZ5zI4iqoLfM-LK74g-mLE" style="width: 300px; height: auto">
 </p>
 Cashier System, Apotek Salwa is a cashier management application for product and transaction management. The addition of features that I did was to add recipe transactions, reports for recipe transactions, invoice lists and printable product lists.
 <!--
