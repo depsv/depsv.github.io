@@ -51,13 +51,13 @@ Cashier System, Apotek Salwa is a cashier management application for product and
 ## Keep in Touch 👉👈
 <p>
   <span>
-    <img alt="Gmail" src="/gmail-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
+    <img alt="Gmail" src="/assets/gmail-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
     debbyprasetyadi@gmail.com
   </span>
 </p>
 <p>
   <span>
-    <img alt="LinkedIn" src="/linkedin-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
+    <img alt="LinkedIn" src="/assets/linkedin-icon.png" style="width:24px; height: 24px; display: inline; float: left; margin-left: 5px">
     Debby Prasetyady
   </span>
 </p>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Portfolio - Profile</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- As a link -->
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">Profile</a>
+        </div>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center mt-2">
+        <div class="d-sm-flex bg-dark rounded p-2">
+            <div class="card shadow-md">
+                <div class="card-header" style="font-size: 1.5em; font-weight: bold;">About me</div>
+                <div class="card-body">
+                    <p class="card-text text-justify">Hi, saya Debby Prasetyady lulusan Universitas Siliwangi dengan GPA
+                        3.01 dengan jurusan Teknik Informatika. Berhasil
+                        mendapatkan sertifikasi profesi Manajemen Proyek Informatika (ICT Project Management) yang sah
+                        melalui Lembaga Sertifikasi
+                        Profesi milik Universitas Siliwangi yang bekerja sama dengan Badan Nasional Sertifikasi Profesi
+                        (BNSP) pada tahun 2018.
+                        Lulus pada 07 Agustus 2021 dan sudah bekerja sejak Januari 2021, telah mengikuti beberapa online
+                        course selama periode
+                        tersebut.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark rounded p-2 mt-3">
+        <div class="card text-center navcontent">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#github" onclick="changeContent('github')"
+                            style="font-weight: bold">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sertifikasi" onclick="changeContent('sertifikasi')"
+                            style="font-weight: bold">Sertifikasi
+                            Profesi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#course" onclick="changeContent('course')"
+                            style="font-weight: bold">Online Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" onclick="changeContent('skills')"
+                            style="font-weight: bold">Set Skills</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body cardcontent d-none" id="github">
+                <h3 class="card-title">Github</h3>
+                <p class="card-text">Sejak bekerja dengan PT. Cantara Digital Innovation saya telah melakukan
+                    beberapa
+                    pembuatan serta penambahan fitur pada aplikasi dan tersimpan pada repository github.</p>
+                <a href="https://github.com/depsv" class="btn btn-primary" target="_blank">Lihat Github</a>
+            </div>
+            <div class="card-body cardcontent d-none" id="sertifikasi">
+                <h3 class="card-title">ICT Project Management</h3>
+                <p class="card-text">Sertifikasi profesi melalui Lembaga Sertifikasi Profesi (LSP) milik Universitas
+                    Siliwangi yang bekerja sama dengan Badan Nasional Sertifikasi Profesi (BSNP).</p>
+                <a href="https://drive.google.com/file/d/1VQYuH2pg6Wk_wY44fZcf6BGd9PIi5xwF/view?usp=sharing"
+                    class="btn btn-primary" target="_blank">Lihat Sertifikat</a>
+            </div>
+            <div class="card-body cardcontent d-none" id="course">
+                <h3 class="card-title">Online Course</h3>
+                <p class="card-text">Sejak tahun 2021 saya aktif mengikuti beberapa online course yang disediakan
+                    oleh
+                    beberapa penyedia online course di indonesia.</p>
+                <a href="course.html" class="btn btn-primary">Lihat Online Course</a>
+            </div>
+            <div class="card-body cardcontent d-none" id="skills">
+                <h3 class="card-title">Set Skills</h3>
+                <p class="card-text">Setelah bekerja dengan PT. Cantara Digital Innovation, saya mendapatkan
+                    beberapa skill
+                    set yang dapat membantu dalam berbagai bidang pekerjaan.</p>
+                <a href="#" class="btn btn-primary">Lihat Set Skills</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="d-flex mt-2 p-2 justify-content-center align-items-center" id="card-content">
+        <div class="d-sm-flex bg-dark rounded">
+            <div class="card text-center m-2 shadow-md">
+                <div class="card-header" style="font-weight: bold; font-size:large">Contact me on :</div>
+                <div class="card-body">
+                    <a href="#" class="btn btn-danger">
+                        <img src="assets/gmail-icon.png" alt="Gmail" style="width: 20px; height: 20px">
+                        <span>Gmail</span>
+                    </a>
+                    <a href="#" class="btn btn-primary">
+                        <img src="assets/linkedin-icon.png" alt="Gmail" style="width: 20px; height: 20px">
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="btn btn-success">
+                        <img src="assets/whatsapp-icon.png" alt="Whatsapp" style="width: 20px; height: 20px">
+                        <span>Whatsapp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+
+</html>
