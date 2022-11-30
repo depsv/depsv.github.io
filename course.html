@@ -2,20 +2,424 @@
 <html>
 
 <head>
-    <title>Portfolio - Profile</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio - Course</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- As a link -->
-    <nav class="navbar bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="index.html">Online Course</a>
+    <section id="section-top">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="index.html">Online Course</a>
+            </div>
+        </nav>
+
+        <!-- Screen >= 768px -->
+        <div id="course-normal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Dart/Dicoding - Sertifikat Dart_page-0001.jpg"
+                                    alt="Dicoding Dart">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Dart</h5>
+                                <p class="card-text">Online course yang diadakan oleh Dicoding tentang
+                                    bahasa pemrograman Dart</p>
+                                <a href="#course-dicoding-dart" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Flutter/Dicoding - Serifikat Flutter_page-0001.jpg"
+                                    alt="Dicoding Flutter">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Flutter</h5>
+                                <p class="card-text">Online course yang diadakan oleh Dicoding belajar membuat aplikasi
+                                    Flutter
+                                </p>
+                                <a href="#course-dicoding-flutter" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-JavaScript/Dicoding - Belajar Dasar Pemrograman JavaScript_page-0001.jpg"
+                                    alt="Dicoding Javascript">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Javascript</h5>
+                                <p class="card-text">Online course yang diadakan oleh Dicoding tentang
+                                    bahasa pemrograman Javascript</p>
+                                <a href="#course-dicoding-javascript" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Web/Dicoding - Belajar Dasar Pemrograman Web_page-0001.jpg"
+                                    alt="Dicoding Web">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Web</h5>
+                                <p class="card-text">Online course yang diadakan oleh Dicoding tentang
+                                    belajar dasar pemrograman web</p>
+                                <a href="#course-dicoding-web" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Gamelab-Java/Gamelab - Sertifikat Java_page-0001.jpg"
+                                    alt="Gamelab Java">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Gamelab - Java</h5>
+                                <p class="card-text">Online course yang diadakan oleh Gamelab tentang
+                                    belajar dasar pemrograman web</p>
+                                <a href="#course-gamelab-java" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0001.jpg"
+                                    alt="KarierMu AdobeXD">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">KarierMu - UI/UX</h5>
+                                <p class="card-text">Online course yang diadakan oleh KarierMu tentang
+                                    mendesain UI/UX aplikasi</p>
+                                <a href="#course-kariermu-uiux" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#course-normal" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#course-normal" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
+
+        <!-- Screen <= 767 -->
+        <div id="course-small" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Dart/Dicoding - Sertifikat Dart_page-0001.jpg"
+                                    alt="Dicoding Dart">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Dart</h5>
+                                <p class="card-text">Sempat mengikuti online course yang diadakan oleh Dicoding tentang
+                                    bahasa
+                                    pemrograman Dart</p>
+                                <a href="#course-dicoding-dart" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Flutter/Dicoding - Serifikat Flutter_page-0001.jpg"
+                                    alt="Dicoding Flutter">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Flutter</h5>
+                                <p class="card-text">PT. Cantara merupakan sebuah Start-Up yang berkonsentrasi pada
+                                    bidang
+                                    IT
+                                    Solution.</p>
+                                <a href="#course-dicoding-flutter" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-JavaScript/Dicoding - Belajar Dasar Pemrograman JavaScript_page-0001.jpg"
+                                    alt="Dicoding Javascript">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Javascript</h5>
+                                <p class="card-text"></p>
+                                <a href="#course-dicoding-javascript" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Dicoding-Web/Dicoding - Belajar Dasar Pemrograman Web_page-0001.jpg"
+                                    alt="Dicoding Web">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Dicoding - Web</h5>
+                                <p class="card-text">Online course yang diadakan oleh Dicoding tentang
+                                    belajar dasar pemrograman web (Beginner)</p>
+                                <a href="#course-dicoding-web" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Gamelab-Java/Gamelab - Sertifikat Java_page-0001.jpg"
+                                    alt="Gamelab Java">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Gamelab - Java</h5>
+                                <p class="card-text">Online course yang diadakan oleh Gamelab tentang
+                                    membuat kode program menggunakan java untuk menjadi pemrogram aplikasi</p>
+                                <a href="#course-gamelab-java" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card course">
+                            <div class="image-wrapper">
+                                <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0001.jpg"
+                                    alt="KarierMu AdobeXD">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">KarierMu - UI/UX</h5>
+                                <p class="card-text">Online course yang diadakan oleh KarierMu tentang
+                                    mendesain UI/UX aplikasi di Adobe XD bagi desainer multimedia (bauran)</p>
+                                <a href="#course-kariermu-uiux" class="btn btn-primary">See certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#course-small" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#course-small" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-dicoding-dart">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Dicoding Memulai Pemrograman dengan Dart</a>
+            </div>
+        </nav>
+        <div id="dicoding-dart" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Dicoding-Dart/Dicoding - Sertifikat Dart_page-0001.jpg" class="d-block w-100"
+                        alt="Dicoding-dart-01" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-Dart/Dicoding - Sertifikat Dart_page-0002.jpg" class="d-block w-100"
+                        alt="Dicoding-dart-02" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-Dart/Dicoding - Sertifikat Dart_page-0003.jpg" class="d-block w-100"
+                        alt="Dicoding-dart-03" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dicoding-dart" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dicoding-dart" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-dicoding-flutter">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Belajar membuat Aplikasi Flutter untuk Pemula</a>
+            </div>
+        </nav>
+        <div id="dicoding-flutter" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Dicoding-Flutter/Dicoding - Serifikat Flutter_page-0001.jpg"
+                        class="d-block w-100" alt="Dicoding-flutter-01" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-Flutter/Dicoding - Serifikat Flutter_page-0002.jpg"
+                        class="d-block w-100" alt="Dicoding-flutter-02" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dicoding-flutter" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dicoding-flutter" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-dicoding-javascript">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Belajar Dasar Pemrograman Javascript</a>
+            </div>
+        </nav>
+        <div id="dicoding-javascript" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Dicoding-JavaScript/Dicoding - Belajar Dasar Pemrograman JavaScript_page-0001.jpg"
+                        class="d-block w-100" alt="Dicoding-js-01" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-JavaScript/Dicoding - Belajar Dasar Pemrograman JavaScript_page-0002.jpg"
+                        class="d-block w-100" alt="Dicoding-js-02" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-JavaScript/Dicoding - Belajar Dasar Pemrograman JavaScript_page-0003.jpg"
+                        class="d-block w-100" alt="Dicoding-js-03" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dicoding-javascript"
+                data-bs-slide="prev" id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dicoding-javascript"
+                data-bs-slide="next" id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-dicoding-web">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Belajar Dasar Pemrograman Web</a>
+            </div>
+        </nav>
+        <div id="dicoding-web" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Dicoding-Web/Dicoding - Belajar Dasar Pemrograman Web_page-0001.jpg"
+                        class="d-block w-100" alt="Dicoding-web-01" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-Web/Dicoding - Belajar Dasar Pemrograman Web_page-0002.jpg"
+                        class="d-block w-100" alt="Dicoding-web-02" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Dicoding-Web/Dicoding - Belajar Dasar Pemrograman Web_page-0003.jpg"
+                        class="d-block w-100" alt="Dicoding-web-03" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#dicoding-web" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dicoding-web" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-gamelab-java">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Membuat Kode Program menggunakan Java untuk
+                    Menjadi Pemrogram Aplikasi</a>
+            </div>
+        </nav>
+        <div id="gamelab-java" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Gamelab-Java/Gamelab - Sertifikat Java_page-0001.jpg" class="d-block w-100"
+                        alt="Gamelab-java-01" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gamelab-java" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gamelab-java" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <section id="course-kariermu-uiux">
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#section-top">Mendesain UI/UX Aplikasi di Adobe XD bagi
+                    Desainer Multimedia (Bauran)</a>
+            </div>
+        </nav>
+        <div id="kariermu-uiux" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0001.jpg"
+                        class="d-block w-100" alt="KarierMu-uiux-01" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0002.jpg"
+                        class="d-block w-100" alt="KarierMu-uiux-02" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0003.jpg"
+                        class="d-block w-100" alt="KarierMu-uiux-03" height="680">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/Kariermu-AdobeXD/KarierMu - Sertifikat Adobe XD_page-0004.jpg"
+                        class="d-block w-100" alt="KarierMu-uiux-04" height="680">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#kariermu-uiux" data-bs-slide="prev"
+                id="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#kariermu-uiux" data-bs-slide="next"
+                id="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
