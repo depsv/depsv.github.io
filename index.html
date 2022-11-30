@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <section>
+    <section id="section-top">
         <!-- As a link -->
-        <nav class="navbar bg-dark w-100">
+        <nav class="navbar bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand text-light" href="#card-content">Portfolio of Debby Prasetyady</a>
             </div>
         </nav>
 
         <!-- Carousel Section -->
-        <div id="porto" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/dewitas.PNG" class="d-block w-100" alt="Skripsi" height="680">
@@ -32,11 +32,13 @@
                     <img src="assets/img/apotek.PNG" class="d-block w-100" alt="Apotek Salwa" height="680">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#porto" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#porto" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -72,7 +74,8 @@
     <!-- Footer -->
     <div class="d-flex justify-content-center fixed-bottom mt-5 bg-dark w-100 text-light">
         <div class="p-2">
-            <h4>Always thirsty for knowledge</h4>
+            <a href="#section-top" style="text-decoration: none; color: white">Always thirsty for
+                knowledge</a>
         </div>
     </div>
 
