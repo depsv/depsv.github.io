@@ -1,4 +1,5 @@
 const navbar = document.querySelectorAll(".navcontent .nav-link");
+const body = document.querySelector("nav");
 
 navbar.forEach(a => {
     a.addEventListener("click", () => {
@@ -21,4 +22,8 @@ function changeContent(selectedId) {
     addDisplay.classList.remove("d-none");
 }
 
-changeContent("github")
+if (body == document.querySelector(".profile")) {
+    changeContent("github")
+} else {
+    changeContent("php")
+}
